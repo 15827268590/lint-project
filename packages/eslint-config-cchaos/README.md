@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const eslintConfigChaos = require('eslint-config-cchaos');
+const eslintConfig Chaos = require('eslint-config-cchaos');
 
 // TODO: DEMONSTRATE API
 ```
