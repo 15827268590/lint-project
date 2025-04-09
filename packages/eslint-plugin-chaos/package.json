@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-chaos",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "prepublishOnly": "npm run test",
     "test": "jest"

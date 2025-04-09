@@ -1,24 +1,34 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '6.6.2',
-0 silly argv   '$0': 'D:\\nvm\\nodejs\\node_modules\\lerna\\dist\\cli.js',
-0 silly argv   name: 'eslint-plugin-chaos'
-0 silly argv }
-1 notice cli v6.6.2
-2 verbose rootPath D:\前端项目学习\lint\linttest\myProject
-3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
-4 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
-5 warn ENOREMOTE No git remote found, skipping repository property
-6 error Error: canceled
-6 error     at Interface.<anonymous> (D:\前端项目学习\lint\linttest\myProject\node_modules\.pnpm\read@1.0.7\node_modules\read\lib\read.js:66:13)
-6 error     at Interface.emit (node:events:518:28)
-6 error     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
-6 error     at ReadStream.onkeypress (node:internal/readline/interface:264:20)
-6 error     at ReadStream.emit (node:events:518:28)
-6 error     at emitKeys (node:internal/readline/utils:371:14)
-6 error     at emitKeys.next (<anonymous>)
-6 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
-6 error     at ReadStream.emit (node:events:518:28)
-6 error     at addChunk (node:internal/streams/readable:559:12)
-6 error     at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-6 error     at Readable.push (node:internal/streams/readable:390:5)
+46 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+46 error npm ERR! code ERESOLVE
+46 error npm ERR! ERESOLVE could not resolve
+46 error npm ERR!
+46 error npm ERR! While resolving: lint-cli-project@undefined
+46 error npm ERR! Found: typescript@5.8.3
+46 error npm ERR! node_modules/typescript
+46 error npm ERR!   dev typescript@"^5.0.4" from the root project
+46 error npm ERR!   peer typescript@">=2.7" from ts-node@10.9.2
+46 error npm ERR!   node_modules/ts-node
+46 error npm ERR!     dev ts-node@"^10.9.1" from the root project
+46 error npm ERR!
+46 error npm ERR! Could not resolve dependency:
+46 error npm ERR! dev typedoc@"^0.24.7" from the root project
+46 error npm ERR!
+46 error npm ERR! Conflicting peer dependency: typescript@5.1.6
+46 error npm ERR! node_modules/typescript
+46 error npm ERR!   peer typescript@"4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x || 5.1.x" from typedoc@0.24.8
+46 error npm ERR!   node_modules/typedoc
+46 error npm ERR!     dev typedoc@"^0.24.7" from the root project
+46 error npm ERR!
+46 error npm ERR! Fix the upstream dependency conflict, or retry
+46 error npm ERR! this command with --force or --legacy-peer-deps
+46 error npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+46 error npm ERR!
+46 error npm ERR!
+46 error npm ERR! For a full report see:
+46 error npm ERR! C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-04-09T00_50_56_655Z-eresolve-report.txt
+46 error
+46 error npm ERR! A complete log of this run can be found in: C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-04-09T00_50_56_655Z-debug-0.log
+46 error     at makeError (D:\前端项目学习\lint\linttest\lint-project\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
+46 error     at handlePromise (D:\前端项目学习\lint\linttest\lint-project\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
+46 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+46 error     at async Promise.all (index 0)
