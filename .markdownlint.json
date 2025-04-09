@@ -1,3 +1,3 @@
 {
-  "extends": "./packages/markDownLint-config-chaos/index.json"
+  "extends": "./packages/markDownLint-config-cchaos/index.json"
 }

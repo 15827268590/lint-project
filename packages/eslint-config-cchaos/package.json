@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-encode",
+  "name": "eslint-config-cchaos",
   "version": "0.0.5",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,5 @@
     "typescript": "^4.1.2",
     "vue-eslint-parser": "^7.3.0"
   },
-  "gitHead": "c0a4d421a16c8eba76c42162a1066f5d3d2acaa3"
+  "gitHead": "9d4e4ff0a18f4021f69e2751f03df827f1b31f4c"
 }
