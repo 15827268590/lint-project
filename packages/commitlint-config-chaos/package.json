@@ -1,0 +1,9 @@
+{
+  "name": "commitlint-config-chaos",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
+}

@@ -1,0 +1,24 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'D:\\nvm\\nodejs\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   name: 'eslint-plugin-chaos'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath D:\前端项目学习\lint\linttest\myProject
+3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+4 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+5 warn ENOREMOTE No git remote found, skipping repository property
+6 error Error: canceled
+6 error     at Interface.<anonymous> (D:\前端项目学习\lint\linttest\myProject\node_modules\.pnpm\read@1.0.7\node_modules\read\lib\read.js:66:13)
+6 error     at Interface.emit (node:events:518:28)
+6 error     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+6 error     at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+6 error     at ReadStream.emit (node:events:518:28)
+6 error     at emitKeys (node:internal/readline/utils:371:14)
+6 error     at emitKeys.next (<anonymous>)
+6 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+6 error     at ReadStream.emit (node:events:518:28)
+6 error     at addChunk (node:internal/streams/readable:559:12)
+6 error     at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+6 error     at Readable.push (node:internal/streams/readable:390:5)
