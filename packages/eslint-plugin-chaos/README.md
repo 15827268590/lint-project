@@ -7,5 +7,5 @@
 ```
 const eslintPluginChaos = require('eslint-plugin-chaos');
 
-// TODO: DEMONSTRATE API
+// TODO: DEMONSTRATE APIsss
 ```
