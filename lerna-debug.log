@@ -25,9 +25,9 @@
 46 error npm ERR!
 46 error npm ERR!
 46 error npm ERR! For a full report see:
-46 error npm ERR! C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-04-09T00_50_56_655Z-eresolve-report.txt
+46 error npm ERR! C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-04-09T01_11_54_200Z-eresolve-report.txt
 46 error
-46 error npm ERR! A complete log of this run can be found in: C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-04-09T00_50_56_655Z-debug-0.log
+46 error npm ERR! A complete log of this run can be found in: C:\Users\Administrator\AppData\Local\npm-cache\_logs\2025-04-09T01_11_54_200Z-debug-0.log
 46 error     at makeError (D:\前端项目学习\lint\linttest\lint-project\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
 46 error     at handlePromise (D:\前端项目学习\lint\linttest\lint-project\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
 46 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
