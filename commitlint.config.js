@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["./packages/commitlint-config-chaos/index.js"],
+  extends: ['./packages/commitlint-config-chaos/index.js'],
 };
