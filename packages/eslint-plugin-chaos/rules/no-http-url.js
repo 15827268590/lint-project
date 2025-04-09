@@ -6,7 +6,7 @@ module.exports = {
   meta: {
     type: 'suggestion', // 报错级别，建议级别
     fixable: null, // 是否进行自动修复处理
-    // 报错提示，定义集，在下面可以直接使用
+    // 报错提示，定义集，在下面可 以直接使用
     messages: {
       noHttpUrl: 'Recommended "{{url}}" switch to HTTPS',
     },

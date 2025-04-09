@@ -14,5 +14,6 @@
     "jest": "^29.5.0",
     "stylelint": "^14.3.0",
     "stylelint-scss": "^4.1.0"
-  }
+  },
+  "gitHead": "c0a4d421a16c8eba76c42162a1066f5d3d2acaa3"
 }

@@ -25,5 +25,6 @@
     "lodash": "^4.17.21",
     "typescript": "^4.1.2",
     "vue-eslint-parser": "^7.3.0"
-  }
+  },
+  "gitHead": "c0a4d421a16c8eba76c42162a1066f5d3d2acaa3"
 }
